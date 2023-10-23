@@ -41,31 +41,33 @@ body header {
   flex-direction: column;
   background-image: url(../img/index/header.jpg);
   background-size: cover;
-  background-position-y: center;
+  background-position: 50% 57%;
   height: 10rem;
   width: 100%;
 }
-body header h1,
 body header p {
-  color: white;
-  margin-bottom: 1rem;
-}
-body header h1 {
-  font-size: 3rem;
-  font-weight: 200;
-}
-body header p {
-  background-color: #61677a;
+  background-color: white;
   padding: 0.2rem 1rem;
   border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
 }
-body main h2 {
+
+main h3 {
+  font-size: 2rem;
+}
+main p {
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+}
+main h2 {
   text-align: center;
   font-weight: 200;
   font-size: 3rem;
   margin: 7rem auto 2rem;
 }
-body main .romania {
+main .romania {
   max-width: 100%;
   max-height: 1500px;
   display: grid;
@@ -73,7 +75,7 @@ body main .romania {
   grid-template-rows: repeat(9, 1fr);
   gap: 1rem;
 }
-body main .romania .img1 {
+main .romania .img1 {
   height: 100%;
   width: 100%;
   grid-column: span 8;
@@ -83,7 +85,7 @@ body main .romania .img1 {
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
 }
-body main .romania .div2 {
+main .romania .div2 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -95,13 +97,13 @@ body main .romania .div2 {
   grid-column: span 4;
   grid-row: span 2;
 }
-body main .romania .img3 {
+main .romania .img3 {
   height: 100%;
   width: 100%;
   grid-column: span 4;
   grid-row: span 1;
 }
-body main .romania .img4 {
+main .romania .img4 {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -109,7 +111,7 @@ body main .romania .img4 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .romania .div5 {
+main .romania .div5 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -123,7 +125,7 @@ body main .romania .div5 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .romania .img6 {
+main .romania .img6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -131,7 +133,7 @@ body main .romania .img6 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .romania .img7 {
+main .romania .img7 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 20%;
@@ -141,7 +143,7 @@ body main .romania .img7 {
   grid-column: span 8;
   grid-row: span 3;
 }
-body main .romania .img8 {
+main .romania .img8 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -149,7 +151,7 @@ body main .romania .img8 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .slovakia {
+main .slovakia {
   max-width: 100%;
   max-height: 1500px;
   display: grid;
@@ -157,7 +159,7 @@ body main .slovakia {
   grid-template-rows: repeat(9, 1fr);
   gap: 1rem;
 }
-body main .slovakia .img1 {
+main .slovakia .img1 {
   height: 100%;
   width: 100%;
   grid-column: span 8;
@@ -167,7 +169,7 @@ body main .slovakia .img1 {
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
 }
-body main .slovakia .div2 {
+main .slovakia .div2 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -179,13 +181,13 @@ body main .slovakia .div2 {
   grid-column: span 4;
   grid-row: span 2;
 }
-body main .slovakia .img3 {
+main .slovakia .img3 {
   height: 100%;
   width: 100%;
   grid-column: span 4;
   grid-row: span 1;
 }
-body main .slovakia .img4 {
+main .slovakia .img4 {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -193,7 +195,7 @@ body main .slovakia .img4 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .slovakia .div5 {
+main .slovakia .div5 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -207,7 +209,7 @@ body main .slovakia .div5 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .slovakia .img6 {
+main .slovakia .img6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -215,7 +217,7 @@ body main .slovakia .img6 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .slovakia .img7 {
+main .slovakia .img7 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 50%;
@@ -225,7 +227,7 @@ body main .slovakia .img7 {
   grid-column: span 8;
   grid-row: span 3;
 }
-body main .slovakia .img8 {
+main .slovakia .img8 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -233,7 +235,7 @@ body main .slovakia .img8 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .azores {
+main .azores {
   max-width: 100%;
   max-height: 1500px;
   display: grid;
@@ -241,7 +243,7 @@ body main .azores {
   grid-template-rows: repeat(9, 1fr);
   gap: 1rem;
 }
-body main .azores .img1 {
+main .azores .img1 {
   height: 100%;
   width: 100%;
   grid-column: span 8;
@@ -251,7 +253,7 @@ body main .azores .img1 {
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
 }
-body main .azores .div2 {
+main .azores .div2 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -263,13 +265,13 @@ body main .azores .div2 {
   grid-column: span 4;
   grid-row: span 2;
 }
-body main .azores .img3 {
+main .azores .img3 {
   height: 100%;
   width: 100%;
   grid-column: span 4;
   grid-row: span 1;
 }
-body main .azores .img4 {
+main .azores .img4 {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -277,7 +279,7 @@ body main .azores .img4 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .azores .div5 {
+main .azores .div5 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -291,7 +293,7 @@ body main .azores .div5 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .azores .img6 {
+main .azores .img6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -299,7 +301,7 @@ body main .azores .img6 {
   grid-column: span 4;
   grid-row: span 3;
 }
-body main .azores .img7 {
+main .azores .img7 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 60%;
@@ -309,11 +311,17 @@ body main .azores .img7 {
   grid-column: span 8;
   grid-row: span 3;
 }
-body main .azores .img8 {
+main .azores .img8 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
   width: 100%;
   grid-column: span 4;
   grid-row: span 3;
+}
+
+footer p {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

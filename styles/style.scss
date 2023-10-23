@@ -42,276 +42,284 @@ body {
     flex-direction: column;
     background-image: url(../img/index/header.jpg);
     background-size: cover;
-    background-position-y: center;
+    background-position: 50% 57%;
     height: 10rem;
     width: 100%;
-    h1,
     p {
-      color: $header-text-color;
-      margin-bottom: 1rem;
-    }
-    h1 {
-      font-size: 3rem;
-      font-weight: 200;
-    }
-    p {
-      background-color: #61677a;
+      background-color: white;
       padding: 0.2rem 1rem;
       border-radius: 0.2rem;
+      font-size: 1.5rem;
+      font-weight: 200;
+      letter-spacing: 0.2rem;
     }
   }
-  main {
-    h2 {
+}
+main {
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1rem;
+    letter-spacing: 0.15rem;
+  }
+  h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 3rem;
+    margin: 7rem auto 2rem;
+  }
+  .romania {
+    max-width: 100%;
+    max-height: 1500px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 1rem;
+
+    .img1 {
+      height: 100%;
+      width: 100%;
+      grid-column: span 8;
+      grid-row: span 3;
+      object-fit: cover;
+      object-position: 50% 40%;
+    }
+    .div2 {
+      box-sizing: border-box;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
       text-align: center;
-      font-weight: 200;
-      font-size: 3rem;
-      margin: 7rem auto 2rem;
+
+      grid-column: span 4;
+      grid-row: span 2;
     }
-    .romania {
-      max-width: 100%;
-      max-height: 1500px;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(9, 1fr);
-      gap: 1rem;
-
-      .img1 {
-        height: 100%;
-        width: 100%;
-        grid-column: span 8;
-        grid-row: span 3;
-        object-fit: cover;
-        object-position: 50% 40%;
-      }
-      .div2 {
-        box-sizing: border-box;
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-
-        grid-column: span 4;
-        grid-row: span 2;
-      }
-      .img3 {
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 1;
-      }
-      .img4 {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .div5 {
-        box-sizing: border-box;
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .img6 {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .img7 {
-        object-fit: cover;
-        object-position: 50% 20%;
-        height: 100%;
-        width: 100%;
-        grid-column: span 8;
-        grid-row: span 3;
-      }
-      .img8 {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
+    .img3 {
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 1;
     }
-    .slovakia {
-      max-width: 100%;
-      max-height: 1500px;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(9, 1fr);
-      gap: 1rem;
-
-      .img1 {
-        height: 100%;
-        width: 100%;
-        grid-column: span 8;
-        grid-row: span 3;
-        object-fit: cover;
-        object-position: 50% 40%;
-      }
-      .div2 {
-        box-sizing: border-box;
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-
-        grid-column: span 4;
-        grid-row: span 2;
-      }
-      .img3 {
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 1;
-      }
-      .img4 {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .div5 {
-        box-sizing: border-box;
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .img6 {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .img7 {
-        object-fit: cover;
-        object-position: 50% 50%;
-        height: 100%;
-        width: 100%;
-        grid-column: span 8;
-        grid-row: span 3;
-      }
-      .img8 {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
+    .img4 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      grid-column: span 4;
+      grid-row: span 3;
     }
-    .azores {
-      max-width: 100%;
-      max-height: 1500px;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(9, 1fr);
-      gap: 1rem;
+    .div5 {
+      box-sizing: border-box;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
 
-      .img1 {
-        height: 100%;
-        width: 100%;
-        grid-column: span 8;
-        grid-row: span 3;
-        object-fit: cover;
-        object-position: 50% 40%;
-      }
-      .div2 {
-        box-sizing: border-box;
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-
-        grid-column: span 4;
-        grid-row: span 2;
-      }
-      .img3 {
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 1;
-      }
-      .img4 {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .div5 {
-        box-sizing: border-box;
-        padding: 1rem;
-        height: 100%;
-        width: 100%;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .img6 {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
-      .img7 {
-        object-fit: cover;
-        object-position: 50% 60%;
-        height: 100%;
-        width: 100%;
-        grid-column: span 8;
-        grid-row: span 3;
-      }
-      .img8 {
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        grid-column: span 4;
-        grid-row: span 3;
-      }
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
     }
+    .img6 {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .img7 {
+      object-fit: cover;
+      object-position: 50% 20%;
+      height: 100%;
+      width: 100%;
+      grid-column: span 8;
+      grid-row: span 3;
+    }
+    .img8 {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+  }
+  .slovakia {
+    max-width: 100%;
+    max-height: 1500px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 1rem;
+
+    .img1 {
+      height: 100%;
+      width: 100%;
+      grid-column: span 8;
+      grid-row: span 3;
+      object-fit: cover;
+      object-position: 50% 40%;
+    }
+    .div2 {
+      box-sizing: border-box;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+
+      grid-column: span 4;
+      grid-row: span 2;
+    }
+    .img3 {
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 1;
+    }
+    .img4 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .div5 {
+      box-sizing: border-box;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .img6 {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .img7 {
+      object-fit: cover;
+      object-position: 50% 50%;
+      height: 100%;
+      width: 100%;
+      grid-column: span 8;
+      grid-row: span 3;
+    }
+    .img8 {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+  }
+  .azores {
+    max-width: 100%;
+    max-height: 1500px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 1rem;
+
+    .img1 {
+      height: 100%;
+      width: 100%;
+      grid-column: span 8;
+      grid-row: span 3;
+      object-fit: cover;
+      object-position: 50% 40%;
+    }
+    .div2 {
+      box-sizing: border-box;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+
+      grid-column: span 4;
+      grid-row: span 2;
+    }
+    .img3 {
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 1;
+    }
+    .img4 {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .div5 {
+      box-sizing: border-box;
+      padding: 1rem;
+      height: 100%;
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .img6 {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+    .img7 {
+      object-fit: cover;
+      object-position: 50% 60%;
+      height: 100%;
+      width: 100%;
+      grid-column: span 8;
+      grid-row: span 3;
+    }
+    .img8 {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      grid-column: span 4;
+      grid-row: span 3;
+    }
+  }
+}
+footer {
+  p {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
   }
 }
