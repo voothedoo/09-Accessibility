@@ -20,8 +20,11 @@ body nav {
 }
 body nav .logo {
   color: #272829;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 200;
+}
+body nav .logo:hover {
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
 }
 body nav ul {
   display: flex;
@@ -31,8 +34,11 @@ body nav ul {
 body nav ul a {
   padding-left: 2rem;
   color: #272829;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 500;
+}
+body nav ul a:hover {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 body header {
   display: flex;
@@ -66,6 +72,9 @@ main h2 {
   font-weight: 200;
   font-size: 3rem;
   margin: 7rem auto 2rem;
+}
+main h3 {
+  font-weight: 400;
 }
 main .romania {
   max-width: 100%;
@@ -186,6 +195,8 @@ main .slovakia .img3 {
   width: 100%;
   grid-column: span 4;
   grid-row: span 1;
+  -o-object-fit: 30% 50%;
+     object-fit: 30% 50%;
 }
 main .slovakia .img4 {
   height: 100%;
@@ -324,4 +335,530 @@ footer p {
   text-align: center;
   padding: 1.5rem 0;
   font-size: 1.5rem;
+}
+
+@media (max-width: 960px) {
+  body {
+    max-width: 100vw;
+    margin: 0 5rem;
+  }
+  body nav .logo {
+    font-size: 3rem;
+  }
+  body nav ul a {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  body header p {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+  body main h2 {
+    font-size: 2rem;
+    margin: 3rem auto 1rem;
+  }
+  body main h3 {
+    font-size: 1.5rem;
+  }
+  body main p {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+  body main .romania {
+    max-width: 100%;
+    max-height: 3000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+  }
+  body main .romania .img1 {
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 60%;
+       object-position: 50% 60%;
+  }
+  body main .romania .div2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img3 {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img4 {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .div5 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img6 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img7 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 20%;
+       object-position: 50% 20%;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img8 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia {
+    max-width: 100%;
+    max-height: 3000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+  }
+  body main .slovakia .img1 {
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 60%;
+       object-position: 50% 60%;
+  }
+  body main .slovakia .div2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img3 {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img4 {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .div5 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img6 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img7 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 20%;
+       object-position: 50% 20%;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img8 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores {
+    max-width: 100%;
+    max-height: 3000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+  }
+  body main .azores .img1 {
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 60%;
+       object-position: 50% 60%;
+  }
+  body main .azores .div2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores .img3 {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores .img4 {
+    height: 20rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores .div5 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores .img6 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores .img7 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 20%;
+       object-position: 50% 20%;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .azores .img8 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 20rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body footer p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 720px) {
+  body {
+    max-width: 100vw;
+    margin: 0 5rem;
+  }
+  body nav .logo {
+    font-size: 2rem;
+  }
+  body nav ul a {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  body header p {
+    font-size: 1rem;
+    letter-spacing: normal;
+    padding: 0;
+  }
+  body main h2 {
+    font-size: 2rem;
+    margin: 3rem auto 1rem;
+  }
+  body main h3 {
+    font-size: 1.5rem;
+  }
+  body main p {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+  body main .romania {
+    max-width: 100%;
+    max-height: 3000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+  }
+  body main .romania .img1 {
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 60%;
+       object-position: 50% 60%;
+  }
+  body main .romania .div2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img3 {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img4 {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .div5 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img6 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img7 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 20%;
+       object-position: 50% 20%;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .romania .img8 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia {
+    max-width: 100%;
+    max-height: 3000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+  }
+  body main .slovakia .img1 {
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 60%;
+       object-position: 50% 60%;
+  }
+  body main .slovakia .div2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img3 {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img4 {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .div5 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img6 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img7 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 20%;
+       object-position: 50% 20%;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img8 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia {
+    max-width: 100%;
+    max-height: 3000px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 1rem;
+  }
+  body main .slovakia .img1 {
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 60%;
+       object-position: 50% 60%;
+  }
+  body main .slovakia .div2 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img3 {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img4 {
+    height: 15rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .div5 {
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img6 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img7 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 20%;
+       object-position: 50% 20%;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body main .slovakia .img8 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 15rem;
+    grid-column: span 12;
+    grid-row: span 1;
+  }
+  body footer p {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
