@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Poppins;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0 10vw;
+}
+body nav {
+  box-sizing: border-box;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body nav .logo {
+  color: #272829;
+  font-size: 3rem;
+  font-weight: 200;
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+body nav ul a {
+  padding-left: 2rem;
+  color: #272829;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/index/header.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 15rem;
+  width: 100%;
+}
+body header h1,
+body header p {
+  color: white;
+  margin-bottom: 1rem;
+}
+body header h1 {
+  font-size: 3rem;
+  font-weight: 200;
+}
+body header p {
+  background-color: #61677a;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+}/*# sourceMappingURL=style.css.map */
