@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Poppins;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0 10vw;
+}
+body nav {
+  box-sizing: border-box;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body nav .logo {
+  color: #272829;
+  font-size: 4rem;
+  font-weight: 200;
+}
+body nav .logo:hover {
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+body nav ul a {
+  padding-left: 2rem;
+  color: #272829;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+body nav ul a:hover {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+body header::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: -7rem 0 7rem;
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/index/contact.jpg);
+  background-size: cover;
+  background-position: 50% 57%;
+  height: 10rem;
+  width: 100%;
+}
+body header p {
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}/*# sourceMappingURL=contact.css.map */
