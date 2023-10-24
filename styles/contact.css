@@ -68,6 +68,23 @@ body header p {
   font-weight: 200;
   letter-spacing: 0.2rem;
 }
+body main .touch {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+body main h1.touch {
+  margin-top: 5rem;
+  font-size: 5rem;
+  font-weight: 200;
+  font-style: italic;
+}
+body main h2.touch {
+  font-size: 1.7rem;
+}
+body main p.touch {
+  font-size: 1.3rem;
+  margin-bottom: 10rem;
+}
 body main .details {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -107,4 +124,35 @@ body main .details form textarea {
   font-size: 1rem;
   margin-bottom: 0.5rem;
   border: black solid 1px;
+}
+body main .details form .text:focus {
+  background-color: #eadefd;
+}
+body main .details form .button {
+  background-color: white;
+  border: black solid 1px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+}
+body main .details form .button:hover {
+  color: white;
+  font-size: 1.7rem;
+  letter-spacing: 0.5rem;
+  background-color: #8338ec;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+body footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 2rem 0 0rem;
+}
+body footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=contact.css.map */
