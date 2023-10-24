@@ -164,6 +164,8 @@ main .romania .img7 {
 main .romania .img8 {
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: 38% 50%;
+     object-position: 38% 50%;
   height: 100%;
   width: 100%;
   grid-column: span 4;
