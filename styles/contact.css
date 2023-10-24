@@ -156,4 +156,57 @@ body footer p {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 960px) {
+  body {
+    max-width: 100vw;
+    margin: 0 5rem;
+  }
+  body nav .logo {
+    font-size: 3rem;
+  }
+  body nav ul a {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  body header p {
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+  body main h1.touch {
+    font-size: 3rem;
+  }
+  body main h2.touch {
+    font-size: 1.5rem;
+  }
+  body main p.touch {
+    font-size: 1rem;
+    margin-bottom: 4rem;
+  }
+  body main .details {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 720px) {
+  body {
+    max-width: 100vw;
+    margin: 0 5rem;
+  }
+  body nav .logo {
+    font-size: 2rem;
+  }
+  body nav ul a {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+  body header p {
+    font-size: 1rem;
+    letter-spacing: normal;
+    padding: 0;
+  }
+  body footer p {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=contact.css.map */
