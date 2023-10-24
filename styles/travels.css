@@ -84,7 +84,7 @@ body main hr {
   padding: 0;
 }
 body main .madeira {
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 body main .madeira h2 {
   font-size: 2rem;
@@ -116,7 +116,7 @@ body main .madeira div p {
   grid-column: span 4;
 }
 body main .edinburgh {
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 body main .edinburgh h2 {
   font-size: 2rem;
@@ -150,4 +150,112 @@ body main .edinburgh div p {
 body main .edinburgh div .img4 {
   -o-object-position: 100% 10%;
      object-position: 100% 10%;
+}
+body main .malaga {
+  margin-bottom: 10rem;
+}
+body main .malaga h2 {
+  font-size: 2rem;
+}
+body main .malaga .long {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 60%;
+     object-position: 50% 60%;
+}
+body main .malaga div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+body main .malaga div h3 {
+  grid-column: span 4;
+}
+body main .malaga div img {
+  grid-column: span 1;
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .malaga div p {
+  grid-column: span 4;
+}
+body main .malaga div .img4 {
+  -o-object-position: 100% 10%;
+     object-position: 100% 10%;
+}
+body main .amsterdam {
+  margin-bottom: 10rem;
+}
+body main .amsterdam h2 {
+  font-size: 2rem;
+}
+body main .amsterdam .long {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+body main .amsterdam div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+body main .amsterdam div h3 {
+  grid-column: span 4;
+}
+body main .amsterdam div img {
+  grid-column: span 1;
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .amsterdam div p {
+  grid-column: span 4;
+}
+body main .amsterdam div .img4 {
+  -o-object-position: 50% 10%;
+     object-position: 50% 10%;
+}
+body main .gent {
+  margin-bottom: 10rem;
+}
+body main .gent h2 {
+  font-size: 2rem;
+}
+body main .gent .long {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}
+body main .gent div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+body main .gent div h3 {
+  grid-column: span 4;
+}
+body main .gent div img {
+  grid-column: span 1;
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .gent div p {
+  grid-column: span 4;
+}
+body main .gent div .img4 {
+  -o-object-position: 50% 10%;
+     object-position: 50% 10%;
 }/*# sourceMappingURL=travels.css.map */
