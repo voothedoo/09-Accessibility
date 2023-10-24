@@ -70,9 +70,9 @@ body header p {
 }
 body h1 {
   text-align: center;
-  font-weight: 400;
+  font-weight: 700;
   margin-top: 3rem;
-  text-decoration: underline;
+  margin-bottom: 5rem;
 }
 body main h3 {
   font-size: 2rem;
@@ -83,7 +83,7 @@ body main p {
 }
 body main h2 {
   font-style: italic;
-  text-align: center;
+  text-align: left;
   font-weight: 200;
   font-size: 3rem;
   margin: 7rem auto 2rem;
@@ -114,7 +114,7 @@ body main .romania .img1 {
 }
 body main .romania .div2 {
   box-sizing: border-box;
-  padding: 1rem;
+  padding: 2rem;
   height: 100%;
   width: 100%;
   display: flex;
@@ -123,6 +123,7 @@ body main .romania .div2 {
   text-align: center;
   grid-column: span 4;
   grid-row: span 2;
+  border: black solid 1px;
 }
 body main .romania .img3 {
   height: 100%;
@@ -151,6 +152,7 @@ body main .romania .div5 {
   width: 100%;
   grid-column: span 4;
   grid-row: span 3;
+  border: black solid 1px;
 }
 body main .romania .img6 {
   -o-object-fit: cover;
@@ -209,6 +211,7 @@ body main .slovakia .div2 {
   text-align: center;
   grid-column: span 4;
   grid-row: span 2;
+  border: black solid 1px;
 }
 body main .slovakia .img3 {
   height: 100%;
@@ -239,6 +242,7 @@ body main .slovakia .div5 {
   width: 100%;
   grid-column: span 4;
   grid-row: span 3;
+  border: black solid 1px;
 }
 body main .slovakia .img6 {
   -o-object-fit: cover;
@@ -295,6 +299,7 @@ body main .azores .div2 {
   text-align: center;
   grid-column: span 4;
   grid-row: span 2;
+  border: black solid 1px;
 }
 body main .azores .img3 {
   height: 100%;
@@ -323,6 +328,7 @@ body main .azores .div5 {
   width: 100%;
   grid-column: span 4;
   grid-row: span 3;
+  border: black solid 1px;
 }
 body main .azores .img6 {
   -o-object-fit: cover;
