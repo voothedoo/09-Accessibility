@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Poppins;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0 10vw;
+}
+body nav {
+  box-sizing: border-box;
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body nav .logo {
+  color: #272829;
+  font-size: 4rem;
+  font-weight: 200;
+}
+body nav .logo:hover {
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+body nav ul a {
+  padding-left: 2rem;
+  color: #272829;
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+body nav ul a:hover {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+body header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/index/trips.jpg);
+  background-size: cover;
+  background-position: 50% 57%;
+  height: 10rem;
+  width: 100%;
+}
+body header p {
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+body main h1 {
+  text-align: center;
+  font-weight: 400;
+  margin: 10rem 0 10rem;
+  font-size: 2.7rem;
+}
+body main h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 5rem 0 0.5rem;
+}
+body main article {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../img/index/trips/1.jpg);
+  background-size: cover;
+  background-position: 50% 57%;
+  height: 30rem;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+body main article p,
+body main article h3 {
+  background-color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+body main .italy {
+  background-image: url(../img/index/trips/1.jpg);
+}
+body main .china {
+  background-image: url(../img/index/trips/2.jpg);
+  -o-object-position: 50% 30%;
+     object-position: 50% 30%;
+}
+body main .iceland {
+  background-image: url(../img/index/trips/3.jpg);
+}
+body main .brazil {
+  background-image: url(../img/index/trips/4.jpg);
+}
+body footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}/*# sourceMappingURL=trips.css.map */

@@ -1,0 +1,119 @@
+//imports
+@use "./partials/" as *;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: $primary-font;
+}
+
+//body
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0 10vw;
+  nav {
+    box-sizing: border-box;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+      color: $nav-text-color;
+      font-size: 4rem;
+      font-weight: 200;
+    }
+    .logo:hover {
+      text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      a {
+        padding-left: 2rem;
+        color: $nav-text-color;
+        font-size: 1.7rem;
+        font-weight: 500;
+      }
+      a:hover {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/index/trips.jpg);
+    background-size: cover;
+    background-position: 50% 57%;
+    height: 10rem;
+    width: 100%;
+    p {
+      background-color: white;
+      padding: 0.2rem 1rem;
+      border-radius: 0.2rem;
+      font-size: 1.5rem;
+      font-weight: 200;
+      letter-spacing: 0.2rem;
+    }
+  }
+  main {
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      margin: 10rem 0 10rem;
+      font-size: 2.7rem;
+    }
+    h2 {
+      // font-family: $handwritten-font;
+      font-size: 2rem;
+      font-weight: 400;
+      margin: 5rem 0 0.5rem;
+    }
+    article {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      background-image: url(../img/index/trips/1.jpg);
+      background-size: cover;
+      background-position: 50% 57%;
+      height: 30rem;
+      width: 100%;
+      margin-bottom: 3rem;
+      p,
+      h3 {
+        background-color: white;
+        padding: 0.2rem 1rem;
+        border-radius: 0.2rem;
+        font-size: 1.5rem;
+        font-weight: 200;
+        letter-spacing: 0.2rem;
+      }
+    }
+    .italy {
+      background-image: url(../img/index/trips/1.jpg);
+    }
+    .china {
+      background-image: url(../img/index/trips/2.jpg);
+      object-position: 50% 30%;
+    }
+    .iceland {
+      background-image: url(../img/index/trips/3.jpg);
+    }
+    .brazil {
+      background-image: url(../img/index/trips/4.jpg);
+    }
+  }
+  footer {
+    p {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
