@@ -223,39 +223,45 @@ body main .amsterdam div .img4 {
   -o-object-position: 50% 10%;
      object-position: 50% 10%;
 }
-body main .gent {
+body main .bruxelles {
   margin-bottom: 10rem;
 }
-body main .gent h2 {
+body main .bruxelles h2 {
   font-size: 2rem;
 }
-body main .gent .long {
+body main .bruxelles .long {
   width: 100%;
   height: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  -o-object-position: 50% 97%;
+     object-position: 50% 97%;
 }
-body main .gent div {
+body main .bruxelles div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
 }
-body main .gent div h3 {
+body main .bruxelles div h3 {
   grid-column: span 4;
 }
-body main .gent div img {
+body main .bruxelles div img {
   grid-column: span 1;
   width: 100%;
   aspect-ratio: 1/1.5;
   -o-object-fit: cover;
      object-fit: cover;
 }
-body main .gent div p {
+body main .bruxelles div p {
   grid-column: span 4;
 }
-body main .gent div .img4 {
+body main .bruxelles div .img4 {
   -o-object-position: 50% 10%;
      object-position: 50% 10%;
+}
+body footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: -8rem;
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=travels.css.map */
