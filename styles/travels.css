@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +46,7 @@ body header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../img/index/header.jpg);
+  background-image: url(../img/index/travels.jpg);
   background-size: cover;
   background-position: 50% 57%;
   height: 10rem;
@@ -58,4 +59,95 @@ body header p {
   font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 0.2rem;
+}
+body main h1 {
+  margin: 1rem 0 1rem;
+  font-family: "Dancing Script";
+  font-size: 3rem;
+  font-weight: bold;
+}
+body main p {
+  font-size: 1.1rem;
+}
+body main .farewell {
+  font-family: "Dancing Script";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+body main hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+  padding: 0;
+}
+body main .madeira {
+  margin-bottom: 4rem;
+}
+body main .madeira h2 {
+  font-size: 2rem;
+}
+body main .madeira .long {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 70%;
+     object-position: 50% 70%;
+}
+body main .madeira div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+body main .madeira div h3 {
+  grid-column: span 4;
+}
+body main .madeira div img {
+  grid-column: span 1;
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .madeira div p {
+  grid-column: span 4;
+}
+body main .edinburgh {
+  margin-bottom: 4rem;
+}
+body main .edinburgh h2 {
+  font-size: 2rem;
+}
+body main .edinburgh .long {
+  width: 100%;
+  height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 60%;
+     object-position: 50% 60%;
+}
+body main .edinburgh div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+body main .edinburgh div h3 {
+  grid-column: span 4;
+}
+body main .edinburgh div img {
+  grid-column: span 1;
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .edinburgh div p {
+  grid-column: span 4;
+}
+body main .edinburgh div .img4 {
+  -o-object-position: 100% 10%;
+     object-position: 100% 10%;
 }/*# sourceMappingURL=travels.css.map */
