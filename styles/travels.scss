@@ -41,6 +41,15 @@ body {
       }
     }
   }
+  header::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+
+    margin: -7rem 0 7rem;
+  }
   header {
     display: flex;
     justify-content: center;
