@@ -114,6 +114,7 @@ body main .madeira div img {
 }
 body main .madeira div p {
   grid-column: span 4;
+  margin-bottom: 1rem;
 }
 body main .edinburgh {
   margin-bottom: 10rem;
@@ -146,6 +147,7 @@ body main .edinburgh div img {
 }
 body main .edinburgh div p {
   grid-column: span 4;
+  margin-bottom: 1rem;
 }
 body main .edinburgh div .img4 {
   -o-object-position: 100% 10%;
@@ -182,6 +184,7 @@ body main .malaga div img {
 }
 body main .malaga div p {
   grid-column: span 4;
+  margin-bottom: 1rem;
 }
 body main .malaga div .img4 {
   -o-object-position: 100% 10%;
@@ -218,6 +221,7 @@ body main .amsterdam div img {
 }
 body main .amsterdam div p {
   grid-column: span 4;
+  margin-bottom: 1rem;
 }
 body main .amsterdam div .img4 {
   -o-object-position: 50% 10%;
@@ -254,6 +258,7 @@ body main .bruxelles div img {
 }
 body main .bruxelles div p {
   grid-column: span 4;
+  margin-bottom: 1rem;
 }
 body main .bruxelles div .img4 {
   -o-object-position: 50% 10%;
