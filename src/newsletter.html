@@ -7,7 +7,7 @@
     <title>Newsletter</title>
   </head>
   <body>
-    <nav>
+    <nav role="navigation">
       <a href="#" class="logo">Alex M.</a>
       <ul>
         <li><a href="../index.html">Home</a></li>
@@ -17,10 +17,10 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <header>
+    <header role="banner">
       <p>“Adventure is worthwhile.” – Aristotle</p>
     </header>
-    <main>
+    <main role="main">
       <h1>
         Don't miss out on my travel adventures – subscribe to my newsletter now!
       </h1>
@@ -41,12 +41,14 @@
         />
         <label>
           <input type="checkbox" checked="checked" name="subscribe" />
-          Travels Newsletter
+          Add also the new "Travels" Newsletter
         </label>
-        <input class="button" type="submit" value="Subscribe" />
+        <!-- <button class="button" type="button" tabindex="0">Click Me!</button> -->
+        <!-- <input class="button" type="submit" value="Subscribe" tabindex="1" /> -->
+        <input class="button" type="submit" value="Send" />
       </form>
     </main>
-    <footer>
+    <footer role="contentinfo">
       <p>©Alexandru Munteanu, BeCode Ghent, 2023</p>
     </footer>
   </body>

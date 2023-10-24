@@ -143,6 +143,14 @@ body main .details form .button:hover {
   background-color: #8338ec;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+body main .details form .button:focus {
+  color: white;
+  font-size: 1.7rem;
+  letter-spacing: 0.5rem;
+  background-color: #8338ec;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: black solid 1px;
+}
 body footer::before {
   content: "";
   display: block;
