@@ -18,10 +18,15 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .logo {
+    .logo,
+    .logo-small {
+      font-family: $logo-font;
       color: $nav-text-color;
       font-size: 4rem;
       font-weight: 200;
+    }
+    .logo-small {
+      display: none;
     }
     .logo:hover {
       text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.6);
@@ -181,6 +186,31 @@ body {
 }
 
 //responsive
+
+@media (max-width: 1377px) {
+  body {
+    nav {
+      .logo {
+        display: none;
+      }
+      .logo-small {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (max-width: 1191px) {
+  body {
+    nav {
+      ul {
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 960px) {
   body {
