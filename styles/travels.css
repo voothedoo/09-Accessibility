@@ -286,8 +286,7 @@ body main div .img4 {
   -o-object-position: 50% 10%;
      object-position: 50% 10%;
 }
-
-footer::before {
+body footer::before {
   content: "";
   display: block;
   width: 100%;
@@ -295,8 +294,7 @@ footer::before {
   background-color: black;
   margin-top: 2rem;
 }
-
-footer p {
+body footer p {
   font-size: 1.5rem;
   text-align: center;
   margin-top: 2rem;
