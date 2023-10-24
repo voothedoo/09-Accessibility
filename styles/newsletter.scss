@@ -122,3 +122,76 @@ body {
     }
   }
 }
+
+@media (max-width: 960px) {
+  body {
+    max-width: 100vw;
+    margin: 0 5rem;
+    nav {
+      .logo {
+        font-size: 3rem;
+      }
+      ul {
+        a {
+          font-size: 1rem;
+          padding-left: 1rem;
+        }
+      }
+    }
+    header {
+      p {
+        font-size: 1rem;
+        letter-spacing: normal;
+      }
+    }
+    main {
+      h1 {
+        font-size: 1.5rem;
+      }
+      .text {
+        height: 2rem;
+        font-size: 1rem;
+      }
+      .button {
+        height: 4rem;
+        width: 10rem;
+        font-size: 1.5rem;
+        margin: 3rem auto;
+      }
+      .button:hover {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    max-width: 100vw;
+    margin: 0 5rem;
+    nav {
+      .logo {
+        font-size: 2rem;
+      }
+      ul {
+        a {
+          font-size: 1rem;
+          padding-left: 1rem;
+        }
+      }
+    }
+    header {
+      p {
+        font-size: 1rem;
+        letter-spacing: normal;
+        padding: 0;
+      }
+    }
+
+    footer {
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
