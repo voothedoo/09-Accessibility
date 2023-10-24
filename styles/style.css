@@ -65,28 +65,27 @@ body h1 {
   font-weight: 200;
   margin-top: 2rem;
 }
-
-main h3 {
+body main h3 {
   font-size: 2rem;
 }
-main p {
+body main p {
   font-size: 1rem;
   letter-spacing: 0.15rem;
 }
-main h2 {
+body main h2 {
   font-style: italic;
   text-align: center;
   font-weight: 200;
   font-size: 3rem;
   margin: 7rem auto 2rem;
 }
-main .h2ro {
+body main .h2ro {
   margin-top: 3rem;
 }
-main h3 {
+body main h3 {
   font-weight: 400;
 }
-main .romania {
+body main .romania {
   max-width: 100%;
   max-height: 1500px;
   display: grid;
@@ -94,7 +93,7 @@ main .romania {
   grid-template-rows: repeat(9, 1fr);
   gap: 1rem;
 }
-main .romania .img1 {
+body main .romania .img1 {
   height: 100%;
   width: 100%;
   grid-column: span 8;
@@ -104,7 +103,7 @@ main .romania .img1 {
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
 }
-main .romania .div2 {
+body main .romania .div2 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -116,13 +115,13 @@ main .romania .div2 {
   grid-column: span 4;
   grid-row: span 2;
 }
-main .romania .img3 {
+body main .romania .img3 {
   height: 100%;
   width: 100%;
   grid-column: span 4;
   grid-row: span 1;
 }
-main .romania .img4 {
+body main .romania .img4 {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -130,7 +129,7 @@ main .romania .img4 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .romania .div5 {
+body main .romania .div5 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -144,7 +143,7 @@ main .romania .div5 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .romania .img6 {
+body main .romania .img6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -152,7 +151,7 @@ main .romania .img6 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .romania .img7 {
+body main .romania .img7 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 20%;
@@ -162,7 +161,7 @@ main .romania .img7 {
   grid-column: span 8;
   grid-row: span 3;
 }
-main .romania .img8 {
+body main .romania .img8 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 38% 50%;
@@ -172,7 +171,7 @@ main .romania .img8 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .slovakia {
+body main .slovakia {
   max-width: 100%;
   max-height: 1500px;
   display: grid;
@@ -180,7 +179,7 @@ main .slovakia {
   grid-template-rows: repeat(9, 1fr);
   gap: 1rem;
 }
-main .slovakia .img1 {
+body main .slovakia .img1 {
   height: 100%;
   width: 100%;
   grid-column: span 8;
@@ -190,7 +189,7 @@ main .slovakia .img1 {
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
 }
-main .slovakia .div2 {
+body main .slovakia .div2 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -202,7 +201,7 @@ main .slovakia .div2 {
   grid-column: span 4;
   grid-row: span 2;
 }
-main .slovakia .img3 {
+body main .slovakia .img3 {
   height: 100%;
   width: 100%;
   grid-column: span 4;
@@ -210,7 +209,7 @@ main .slovakia .img3 {
   -o-object-fit: 30% 50%;
      object-fit: 30% 50%;
 }
-main .slovakia .img4 {
+body main .slovakia .img4 {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -218,7 +217,7 @@ main .slovakia .img4 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .slovakia .div5 {
+body main .slovakia .div5 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -232,7 +231,7 @@ main .slovakia .div5 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .slovakia .img6 {
+body main .slovakia .img6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -240,7 +239,7 @@ main .slovakia .img6 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .slovakia .img7 {
+body main .slovakia .img7 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 50%;
@@ -250,7 +249,7 @@ main .slovakia .img7 {
   grid-column: span 8;
   grid-row: span 3;
 }
-main .slovakia .img8 {
+body main .slovakia .img8 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -258,7 +257,7 @@ main .slovakia .img8 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .azores {
+body main .azores {
   max-width: 100%;
   max-height: 1500px;
   display: grid;
@@ -266,7 +265,7 @@ main .azores {
   grid-template-rows: repeat(9, 1fr);
   gap: 1rem;
 }
-main .azores .img1 {
+body main .azores .img1 {
   height: 100%;
   width: 100%;
   grid-column: span 8;
@@ -276,7 +275,7 @@ main .azores .img1 {
   -o-object-position: 50% 40%;
      object-position: 50% 40%;
 }
-main .azores .div2 {
+body main .azores .div2 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -288,13 +287,13 @@ main .azores .div2 {
   grid-column: span 4;
   grid-row: span 2;
 }
-main .azores .img3 {
+body main .azores .img3 {
   height: 100%;
   width: 100%;
   grid-column: span 4;
   grid-row: span 1;
 }
-main .azores .img4 {
+body main .azores .img4 {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
@@ -302,7 +301,7 @@ main .azores .img4 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .azores .div5 {
+body main .azores .div5 {
   box-sizing: border-box;
   padding: 1rem;
   height: 100%;
@@ -316,7 +315,7 @@ main .azores .div5 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .azores .img6 {
+body main .azores .img6 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -324,7 +323,7 @@ main .azores .img6 {
   grid-column: span 4;
   grid-row: span 3;
 }
-main .azores .img7 {
+body main .azores .img7 {
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 50% 60%;
@@ -334,7 +333,7 @@ main .azores .img7 {
   grid-column: span 8;
   grid-row: span 3;
 }
-main .azores .img8 {
+body main .azores .img8 {
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -342,8 +341,15 @@ main .azores .img8 {
   grid-column: span 4;
   grid-row: span 3;
 }
-
-footer p {
+body footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 2rem 0 0rem;
+}
+body footer p {
   text-align: center;
   padding: 1.5rem 0;
   font-size: 1.5rem;

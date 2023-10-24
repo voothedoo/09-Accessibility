@@ -108,6 +108,14 @@ body {
       background-image: url(../img/index/trips/4.jpg);
     }
   }
+  footer::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 1rem;
+  }
   footer {
     p {
       font-size: 1.5rem;

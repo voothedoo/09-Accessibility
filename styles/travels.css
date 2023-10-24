@@ -248,12 +248,9 @@ body main .amsterdam div .img4 {
      object-position: 50% 10%;
 }
 body main .bruxelles {
-  margin-bottom: 10rem;
-}
-body main .bruxelles h2 {
   font-size: 2rem;
 }
-body main .bruxelles .long {
+body main .long {
   width: 100%;
   height: 15rem;
   -o-object-fit: cover;
@@ -261,15 +258,15 @@ body main .bruxelles .long {
   -o-object-position: 50% 97%;
      object-position: 50% 97%;
 }
-body main .bruxelles div {
+body main div {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
 }
-body main .bruxelles div h3 {
+body main div h3 {
   grid-column: span 4;
 }
-body main .bruxelles div img {
+body main div img {
   grid-column: span 1;
   width: 100%;
   aspect-ratio: 1/1.5;
@@ -277,22 +274,32 @@ body main .bruxelles div img {
      object-fit: cover;
   transition: transform 0.5s;
 }
-body main .bruxelles div img:hover {
+body main div img:hover {
   transform: scale(1.3);
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-body main .bruxelles div p {
+body main div p {
   grid-column: span 4;
   margin-bottom: 1rem;
 }
-body main .bruxelles div .img4 {
+body main div .img4 {
   -o-object-position: 50% 10%;
      object-position: 50% 10%;
 }
-body footer p {
+
+footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 2rem;
+}
+
+footer p {
   font-size: 1.5rem;
   text-align: center;
-  margin-top: -8rem;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 

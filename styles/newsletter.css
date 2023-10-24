@@ -63,6 +63,7 @@ body header p {
 body main h1 {
   text-align: center;
   margin: 5rem 0 10rem;
+  font-weight: normal;
 }
 body main form {
   display: flex;
@@ -94,4 +95,18 @@ body main .button:hover {
 }
 body main label {
   font-size: 1rem;
+}
+body footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 2rem 0 0rem;
+}
+body footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }/*# sourceMappingURL=newsletter.css.map */
