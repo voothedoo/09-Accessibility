@@ -67,4 +67,44 @@ body header p {
   font-size: 1.5rem;
   font-weight: 200;
   letter-spacing: 0.2rem;
+}
+body main .details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body main .details article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-column: span 1;
+}
+body main .details article h2 {
+  font-size: 1.2rem;
+}
+body main .details article a {
+  margin-bottom: 1rem;
+}
+body main .details article p {
+  margin-bottom: 1rem;
+}
+body main .details article .last {
+  margin-top: -1rem;
+}
+body main .details form {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main .details form input {
+  height: 2.5rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border: black solid 1px;
+}
+body main .details form textarea {
+  resize: vertical;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border: black solid 1px;
 }/*# sourceMappingURL=contact.css.map */

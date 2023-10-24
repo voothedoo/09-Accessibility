@@ -69,4 +69,47 @@ body {
       letter-spacing: 0.2rem;
     }
   }
+  main {
+    .details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column: span 1;
+        h2 {
+          font-size: 1.2rem;
+        }
+        a {
+          margin-bottom: 1rem;
+        }
+        p {
+          margin-bottom: 1rem;
+        }
+        .last {
+          margin-top: -1rem;
+        }
+      }
+
+      form {
+        grid-column: span 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        input {
+          height: 2.5rem;
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+          border: black solid 1px;
+        }
+        textarea {
+          resize: vertical;
+          font-size: 1rem;
+          margin-bottom: 0.5rem;
+          border: black solid 1px;
+        }
+      }
+    }
+  }
 }
