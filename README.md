@@ -1,8 +1,10 @@
 # Accessibility
 
+**_[Link](https://travel-blog-alex-munteanu.netlify.app/)_ to a preview of the final project.**
+
 ## 📃 1 Description
 
-The assignment #9 from BeCode Ghent, Accessibility. The purpose of this project is to create a travel webiste taking in cosideration the basics rules of accessibility.
+The assignment **#9** from BeCode Ghent, Accessibility. The purpose of this project is to create a travel webiste taking in cosideration the basics rules of accessibility.
 
 ## 📂 2 Table of content
 
@@ -33,3 +35,5 @@ Pages have no sounds or videos.<br>
 Images used are part from personal archive and part from [Unsplash](https://unsplash.com)
 
 Destinations descriptions are made using [ChatGPT](https://chat.openai.com/)
+
+The site was deployed using [Netlify](https://www.netlify.com/)
