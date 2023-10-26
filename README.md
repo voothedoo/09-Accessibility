@@ -25,15 +25,21 @@ The site is quite basic and only contains 5 pages. <br>
 
 ## ⚙️ 4. Features
 
-The pages use a min font size of 16px. <br>
+No font is smaller than 16px on all the pages. <br>
 
-All the pages have a high contrast beween the font color and background color. <br>
+All HTML landmakrs have ARIA roles set. <br>
+
+All the pages have a high contrast beween the font color and the background color. <br>
+
+Pages are responsive with multiple breakpoints at **1420**px, **1250**px, **1000**px and **800**px.<br>
+
+Pages are readable when zoomed at **200%**.<br>
+
+All interactive elements such as buttons, links or forms are easily focusable with the keyboard only **[`TAB` key]**.<br>
 
 Pages have no animations.<br>
 
 Pages have no sounds or videos.<br>
-
-**work in progress...**
 
 ## 👍 5. Credits
 
