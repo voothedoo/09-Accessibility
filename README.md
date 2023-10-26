@@ -33,7 +33,7 @@ All the pages have a high contrast beween the font color and the background colo
 
 Pages are responsive with multiple breakpoints at **1420**px, **1250**px, **1000**px and **800**px.<br>
 
-Pages are readable when zoomed at **200%**.<br>
+Pages don't break and are readable and all content is inside the pages when zoomed at **200%**.<br>
 
 All interactive elements such as buttons, links or forms are easily focusable with the keyboard only **[`TAB` key]**.<br>
 
