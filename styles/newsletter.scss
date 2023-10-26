@@ -122,6 +122,7 @@ body {
         rgba(0, 0, 0, 0.19) 0px 10px 20px,
         rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
+
     label {
       font-size: 1rem;
     }
@@ -216,6 +217,9 @@ body {
         margin: 3rem auto;
       }
       .button:hover {
+        font-size: 1.8rem;
+      }
+      .button:focus {
         font-size: 1.8rem;
       }
     }
