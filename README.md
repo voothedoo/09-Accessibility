@@ -29,8 +29,6 @@ The pages use a min font size of 16px. <br>
 
 All the pages have a high contrast beween the font color and background color. <br>
 
-Pages have a tabindex manually set so the text and pictures are easily focusable using TAB key to assist screen readers.<br>
-
 Pages have no animations.<br>
 
 Pages have no sounds or videos.<br>
