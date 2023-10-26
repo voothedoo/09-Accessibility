@@ -6,7 +6,14 @@
 
 The assignment **#9** from BeCode Ghent, Accessibility. The purpose of this project is to create a travel webiste taking in cosideration the basics rules of accessibility.
 
-## 📂 2 Table of content
+## 🛠️ 2 Tools used
+
+- HTML
+- SASS <br>
+
+_no frameworks (bootsrap/tailwind)_
+
+## 📂 3 Table of content
 
 The site is quite basic and only contains 5 pages. <br>
 
@@ -16,7 +23,7 @@ The site is quite basic and only contains 5 pages. <br>
 - Newsletter
 - Contact
 
-## 🛠️ 3 Features
+## ⚙️ 4 Features
 
 The pages use a min font size of 16px. <br>
 
@@ -30,7 +37,7 @@ Pages have no sounds or videos.<br>
 
 **work in progress...**
 
-## 👍 4 Credits
+## 👍 5 Credits
 
 Images used are part from personal archive and part from [Unsplash](https://unsplash.com)
 
